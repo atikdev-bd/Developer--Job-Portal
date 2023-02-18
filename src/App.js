@@ -8,7 +8,7 @@ import { RouterProvider } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className="body max-w-[1440px] mx-auto">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
